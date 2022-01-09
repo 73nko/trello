@@ -1,9 +1,3 @@
-function Layout() {
-  return (
-    <div>
-      <p>This is my body</p>
-    </div>
-  );
-}
+import Layout from "./Layout";
 
 export default Layout;
