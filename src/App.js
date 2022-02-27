@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <div className="trello">
+    <div className="Kanban-Board">
       <Header user={user} logout={logout} login={login} />
       <Layout user={user} />
     </div>
