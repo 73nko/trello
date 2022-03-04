@@ -6,20 +6,28 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  min-height: 70%;
+  margin-top: 10%;
+  min-height: 500px; // Alguna forma de hacerlo con % que se quede ok? ver con Alex
+  height: 500px; // Alguna forma de hacerlo con % que se quede ok? ver con Alex
   width: 25%;
   text-align: center;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffd2;
+  border-radius: 20px 20px 20px 20px;
+  border: 0.5px solid #4fd3c4;
+  padding-top: 10px;
 }
 
 h3 {
+  //Bastante cutre dar estilo con la etiqueta del h3, repasamos una forma mas eficiente de hacer clases e id para estilos??
   font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
   color: #4fd3c4;
