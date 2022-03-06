@@ -1,0 +1,31 @@
+:root {
+  --main-color-h: 183;
+  --main-color-s: 100%;
+  --main-color-l: 35%;
+  --main-color: hsl(
+    var(--main-color-h),
+    var(--main-color-s),
+    var(--main-color-l)
+  );
+
+  --border-color: hsl(
+    var(--main-color-h),
+    var(--main-color-s),
+    calc(var(--main-color-l) * 0.5)
+  );
+}
+
+body {
+  background-color: #caf0f8;
+  font-size: 16px;
+}
+
+.Kanban-Board {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  overflow: hidden;
+}

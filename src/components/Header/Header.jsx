@@ -1,9 +1,9 @@
 import { Fragment } from "react";
-import "./header.scss";
+import "./header.css";
 
 function Header({ user, logout, login }) {
   return (
-    <header>
+    <header className="header">
       {!user ? (
         <button onClick={login}>Login</button>
       ) : (
