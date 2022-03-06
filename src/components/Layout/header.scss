@@ -14,8 +14,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 10%;
-  min-height: 500px; // Alguna forma de hacerlo con % que se quede ok? ver con Alex
-  height: 500px; // Alguna forma de hacerlo con % que se quede ok? ver con Alex
+  min-height: 500px; // Alguna forma de hacerlo con % que se quede ok? ver con Alex.
+  height: 500px; // Igual que la anterior
   width: 25%;
   text-align: center;
   font-size: 25px;
@@ -23,13 +23,28 @@ body {
   background-color: #effffd;
   border-radius: 20px 20px 20px 20px;
   border: 0.5px solid #4fd3c4;
-  padding-top: 10px;
+  padding-top: 10px; // También debería ser porcentaje verdad?
 }
 
 h3 {
   //Bastante cutre dar estilo con la etiqueta del h3, repasamos una forma mas eficiente de hacer clases e id para estilos??
-  font-size: 45px;
+  background-color: #00adb5;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffbd35;
   text-align: center;
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid #2d4263;
+  width: 80%;
+  margin: auto;
+}
+
+.tareas {
+  font-family: monospace;
+  padding: 20px;
+  line-height: 100%;
+  margin: 20px;
+  border: 1px solid black;
 }
