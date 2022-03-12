@@ -30,10 +30,17 @@
 }
 
 .layout .column .tasks {
+  font-size: clamp(1rem, 1vw, 2rem);
+  display: flex;
+  justify-content: center;
+  text-align: center;
   font-family: monospace;
   padding: 1em;
+  min-height: 2rem;
+  max-height: 5rem;
+  width: 80%;
   line-height: 100%;
-  margin: 1em;
+  margin: 0.8em;
   border: 1px solid black;
   list-style: none;
 }
