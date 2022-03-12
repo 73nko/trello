@@ -30,7 +30,11 @@
 }
 
 .layout .column .tasks {
-  font-size: clamp(1rem, 1vw, 2rem);
+  font-size: clamp(
+    1rem,
+    1vw,
+    2rem
+  ); /*Tiene sentido hacer este clamp para el tamaño de la fuente?? */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,4 +52,15 @@
   border: 1px solid var(--border-color); /*Dejamos el borde de las task con color negro o lo dejamos con el color
                                           de nuestra variable border color?   */
   list-style: none;
+}
+
+/* Estilo del titulo de la primera task, he planteado poner titulo a cada task como en Trello, ver juntos */
+/* Incluyo estos estilos que tenemos debajo pero no he conseguido que afecten al titulo*/
+
+.layout .column .tasks .taskTitle {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
 }

@@ -13,7 +13,10 @@ const ColumnTitle = ({ title }) => {
 const TasksColumn = () => {
   return (
     <ul>
-      <li className="tasks">Header design</li>
+      {/* Ponemos titulo a cada task?? solo he hecho esta primera para plantearlo */}
+      <li className="tasks">
+        <h5 className="taskTitle">Working on header design</h5>Header design
+      </li>
       <li className="tasks">Column dinamic moves</li>
       <li className="tasks">Improve soft skills</li>
       <li className="tasks">Improve soft skills</li>
