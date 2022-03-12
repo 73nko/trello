@@ -16,6 +16,9 @@ const TasksColumn = () => {
       <li className="tasks">Header design</li>
       <li className="tasks">Column dinamic moves</li>
       <li className="tasks">Improve soft skills</li>
+      <li className="tasks">Improve soft skills</li>
+      <li className="tasks">Improve soft skills</li>
+      <li className="tasks">Improve soft skills</li>
     </ul>
   );
 };
